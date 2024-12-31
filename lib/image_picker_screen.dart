@@ -35,7 +35,8 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                     decoration: BoxDecoration(
                       color: Colors.blueGrey,
                       image: DecorationImage(
-                          fit: BoxFit.fill, image: FileImage(selectedImage)),
+                          fit: BoxFit.fill,
+                           image: FileImage(selectedImage)),
                       borderRadius: BorderRadius.circular(20.0),
                     ),
                   ),
